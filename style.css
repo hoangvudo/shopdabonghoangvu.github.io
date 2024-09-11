@@ -1,0 +1,101 @@
+
+.header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+   
+}
+body {
+    background-image: url("img/backgroud1.webp"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+  body {
+    background-image: none;
+  }
+  body {
+    background-color: #fff;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Make sure the header is above the background image */
+  }
+
+
+.logo-web {
+    width: 150px;
+    margin-left: 92px;
+    margin-top: 15px;
+}
+i.fa-solid.fa-cart-plus {
+    font-size: 24px;
+}
+
+
+
+
+.header .search {
+    text-align: center;
+}
+form.d-flex {
+    margin-right: 133px;
+    margin-top: -13px;
+}
+
+.header .search form {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header .search input.form-control {
+    width: 100%;
+    max-width: 500px; 
+}
+
+.header .search button.btn {
+    margin-left: -5px;
+}
+.home-icon.py-5 img.mb-3 {
+    width: 133px;
+}
+.box.text-center {
+    font-size: 36px;
+}
+i.fa-solid.fa-down-long {
+    padding: 17px;
+}
+.facebook {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.maps {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.footer {
+    background-color: beige;
+}
+.btn-custom {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
